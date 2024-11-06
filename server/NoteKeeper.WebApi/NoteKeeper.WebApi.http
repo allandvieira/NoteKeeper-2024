@@ -1,0 +1,15 @@
+@NoteKeeper.WebApi_HostAddress = http://localhost:5213
+
+GET {{NoteKeeper.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+//AMBOS FUNCIONOU
+// @host = https://localhost:8000
+// 
+// GET {{host}}/weatherforecast/
+// Accept: application/json
+// 
+// ###
+// 
